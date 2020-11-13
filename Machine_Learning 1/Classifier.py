@@ -31,3 +31,4 @@ clf.fit(features, labels)
 # description as mentioned above in the code.
 predo = clf.predict([[1, 2, 5, 0]])
 print(predo)
+print(" 1 = Iris-Setosa \n 2 = Iris-Versicolour \n 3 = Iris-Virginica")
