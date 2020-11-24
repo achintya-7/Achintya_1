@@ -6,7 +6,7 @@ int main()
     printf("enter the number to check prime \n");
     scanf("%d", &n);
    
-    for (int i = 2; i < sqrt(n); i++)
+    for (int i = 2; i <= sqrt(n); i++)
     {
         if(n%i == 0)
         {
